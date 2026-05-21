@@ -1,0 +1,23 @@
+# Miden Points Smart Contract
+
+Custom smart contract built and tested on Miden testnet.
+
+## What I built
+
+- `points-account`: stores points in account storage.
+- `points-note`: calls the contract and increases points by 10.
+- `points_flow.rs`: publishes and consumes the note.
+
+## Testnet Proof
+
+Points Account ID:
+`0x922b676e96912b00499fce5fe98596`
+
+Note publish transaction:
+`0xccbd80227a6e57e610d14dc335d0283d8d9c8144d617040cc159a79040145777`
+
+Consume transaction:
+`0xfbfb7966a94aab6589313dcc1f56fa6063f86d649ac1c3f7497af0706f7139b0`
+
+Result:
+`Points were increased by 10 ✅`

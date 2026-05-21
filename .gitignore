@@ -1,0 +1,6 @@
+target/
+keystore/
+store.sqlite3
+*.json
+.env
+.claude/
