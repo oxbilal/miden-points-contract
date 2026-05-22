@@ -21,3 +21,25 @@ Consume transaction:
 
 Result:
 `Points were increased by 10 ✅`
+
+---
+
+## Badge Contract Proof
+
+I also built and tested a second custom flow using a `badge-account` contract.
+
+- `badge-account`: stores badge count in account storage.
+- `badge-note`: calls the contract and increases badge count by 1.
+- `badge_flow.rs`: publishes and consumes the note.
+
+Badge Account ID:
+`0xc54291249b095b00527055d8604c1b`
+
+Badge note publish transaction:
+`0x834934f19aa85031975a94610d578245334d641736dd2e540eef59dd8756583c`
+
+Badge consume transaction:
+`0x09f5a192d1139c1f68a78b5a806f3659769ef84e583a75f84547d6b89740c417`
+
+Result:
+`Badge count increased by 1 ✅`
