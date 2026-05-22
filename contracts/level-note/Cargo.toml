@@ -1,0 +1,22 @@
+[package]
+name = "level-note"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+miden = { version = "0.12" }
+
+[package.metadata.component]
+package = "miden:level-note"
+
+[package.metadata.miden.dependencies]
+"miden:level-account" = { path = "../level-account" }
+
+[package.metadata.component.target.dependencies]
+"miden:level-account" = { path = "../level-account/target/generated-wit/" }
+
+[package.metadata.miden]
+project-kind = "note-script"

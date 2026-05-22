@@ -43,3 +43,25 @@ Badge consume transaction:
 
 Result:
 `Badge count increased by 1 ✅`
+
+---
+
+## Level Contract Proof
+
+I also built and tested a third custom flow using a `level-account` contract.
+
+- `level-account`: stores XP in account storage.
+- `level-note`: calls the contract and increases XP by 25.
+- `level_flow.rs`: publishes and consumes the note.
+
+Level Account ID:
+`0xdade9a850995de0023145c84a1e0db`
+
+Level note publish transaction:
+`0x4d95fbb42377145de5a621524a316d107c771635b92760cb903685a36cf7216d`
+
+Level consume transaction:
+`0x9c7042379c9f6381e34214b5fa5afdf3d116828c78e7f706f39a43d5ee49ccf9`
+
+Result:
+`XP increased by 25 ✅`
