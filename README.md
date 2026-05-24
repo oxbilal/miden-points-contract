@@ -65,3 +65,25 @@ Level consume transaction:
 
 Result:
 `XP increased by 25 ✅`
+
+---
+
+## Quest Contract Proof
+
+I also built and tested a custom `quest-account` flow.
+
+- `quest-account`: stores completed quests.
+- `quest-note`: calls the contract and completes 1 quest.
+- `quest_flow.rs`: publishes and consumes the note.
+
+Quest Account ID:
+`0x1d740ccd86bc53007ab004488177d`
+
+Quest note publish transaction:
+`0x70f0f737194d18b99b64d1655467be0c4787717b2fe5b3bcc09971733fb4`
+
+Quest consume transaction:
+`0xb995cb1f3085968048eec1d5e049faad014dffba47dfbc4c5aaeb6d7d92eed`
+
+Result:
+`Quest completed by 1 ✅`
