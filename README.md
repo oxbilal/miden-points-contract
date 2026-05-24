@@ -83,7 +83,7 @@ Quest note publish transaction:
 `0x70f0f737194d18b99b64d1655467be0c4787717b2fe5b3bcc09971733fb4`
 
 Quest consume transaction:
-`0xb995cb1f3085968048eec1d5e049faad014dffba47dfbc4c5aaeb6d7d92eed`
+`0xb995cb1f30859968048eec1d5e049faad014dffba47dfbc4c5aaeb6d7d92eedc`
 
 Result:
 `Quest completed by 1 ✅`
