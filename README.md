@@ -109,3 +109,25 @@ Reputation consume transaction:
 
 Result:
 `Reputation increased by 50 ✅`
+
+---
+
+## Reputation Contract Proof
+
+I also built and tested a custom `reputation-account` flow.
+
+- `reputation-account`: stores reputation score.
+- `reputation-note`: calls the contract and increases reputation by 50.
+- `reputation_flow.rs`: publishes and consumes the note.
+
+Reputation Account ID:
+`0x364408f535ff250013179819d8660`
+
+Reputation note publish transaction:
+`0x330753af37b69830d6be9605cf03b499c9c2be1fe73649b9d32bf56abf9f4b`
+
+Reputation consume transaction:
+`0x795868caf04d15402b476ef734582011a4e6832c71c5351dc7ae4c9262dee831`
+
+Result:
+`Reputation increased by 50 ✅`
